@@ -14,4 +14,4 @@ git fetch --depth 1 origin "${2}"
 git checkout FETCH_HEAD
 )
 
-cp "${REPO_DIR}/input/elasticapm/docs/spec" "${1}"
+cp -R "${REPO_DIR}/input/elasticapm/docs/spec/" "${1}"
